@@ -1,0 +1,9 @@
+.container{
+    background-color: aqua;
+    max-width: 40%;
+    max-height: 60%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

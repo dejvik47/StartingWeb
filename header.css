@@ -1,0 +1,34 @@
+#header-main{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: #1F1F1F;
+}
+
+.header-link{
+    list-style: none;
+    background-color: #1F1F1F;
+    border: 1px solid whitesmoke;
+    margin: 1rem;
+}
+
+.header-link *{
+    font-size: larger;
+    font-weight: 450;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.header-link:hover{
+    background-color: #444444;
+}
+
+.header-link:active{
+    background-color: #444444;
+    font-weight: bold;
+}
