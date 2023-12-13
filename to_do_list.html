@@ -19,15 +19,48 @@
             </ul>
         </header>
 
-
+        <h2 id="title-list">Your to do list</h3>
         <div id="container-list">
-            <h3>Your to do list</h3>
+            
 
-            <h5>Today</h5>
-            <p>Github test</p>
-            <p>Another one</p>
-            <p>Test3 - mac</p>
-            <p>test4 - win-mez</p>
+            <div class="container-part">
+                <h3>Today</h5>
+
+                <form id="form-add" action="POST">
+                    <input type="text" id="addTask" name="addTask" placeholder="Add Task">
+                    <input type="submit" name="submitTask" id="submitTask">
+                </form>
+
+                <section id="task-list">
+
+                    <h3>Task list</h3>
+
+                    <div class="container-task">
+                        <!-- <div class="content-task">
+                            <input type="text" class="text" name="allTasks" id="allTasks" readonly>
+                        </div>
+
+                        <div class="actions">
+                            <button class="btn-edit">Edit</button>
+                            <button class="btn-delete">Delete</button>
+                            <button class="btn-done">Done</button>
+                        </div> -->
+                    </div>
+                </section>
+            </div>
+
+            <div class="container-part">
+                <h3>Done</h5>
+
+                <ul>
+                    <li>Read a book</li>
+                </ul>
+            </div>
+
+            
+            
         </div>
+
+        <script src="to_do_list.js"></script>
     </body>
 </html>

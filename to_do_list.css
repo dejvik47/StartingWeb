@@ -3,5 +3,44 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    border: 1px solid blue;
     
+}
+
+.container-part{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 3rem;
+    border: 1px solid black;
+}
+
+#title-list{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+#form-add{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#addTask{
+    border-radius: 25px;
+    padding: 0.5rem;
+}
+
+#submitTask{
+    margin: 0.5rem;
+    padding: 0.5rem;
 }
