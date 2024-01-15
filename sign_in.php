@@ -11,8 +11,12 @@
         <?php include "header.html";?>
 
         <div class="container">
-            <form class=""action="POST">
+            <form class="formSign" action="POST">
                 <span>Sign in</span>
+
+                <input type="email" name="userEmail" id="userEmail" placeholder="example@email.com">
+                <input type="password" name="userPassword" id="userPassword" placeholder="********">
+                <input type="submit" name="submitUser" id="submitUser">
             </form>
         </div>
     </body>

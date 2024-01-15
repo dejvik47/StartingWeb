@@ -1,9 +1,21 @@
 .container{
     background-color: aqua;
-    max-width: 40%;
-    max-height: 60%;
+    max-width: 60%;
+    max-height: 80%;
     position: relative;
+    margin: auto;
+}
+
+.formSign{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid blue;
+    flex-direction: column;
+
+}
+
+.formSign *{
+    margin: 0.25rem;
+    font-size: medium;
 }
