@@ -51,9 +51,28 @@ window.addEventListener('load', ()=>{
         taskActions.appendChild(btnDelete);
         taskActions.appendChild(btnDone);
 
+        conTask.appendChild(taskActions);
         allTasks.appendChild(conTask);
-        allTasks.appendChild(taskActions);
+        
 
         input.value = "";
-    })
-})
+
+        btnEdit.addEventListener("click", ()=>{
+
+            if(btnEdit.innerText.toLowerCase() == "edit"){
+                inputTask.removeAttribute("readonly");
+                inputTask.focus();
+                btnEdit.innerText = "Save";
+            }
+            else{
+                inputTask.setAttribute("readonly", "readonly");
+                btnEdit.innerText = "Edit";
+            }
+        });
+
+        btnDelete.addEventListener("click", () => {
+            allTasks.removeChild(conTask);
+        });
+
+    });
+});
