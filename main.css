@@ -1,0 +1,32 @@
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.options div {
+    width: 600px;
+    height: 300px;
+    margin: 0.25rem;
+    background-color: aqua;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options div:hover:active{
+
+}
+
+.options img{
+    object-fit: contain;
+    width: 80%;
+    height: 80%;
+}
+
+.options img:hover:active{
+
+}
