@@ -13,10 +13,25 @@
 
         <div class="options">
 
-        <div class="option1"><img src="checklist.png" alt="todolist-img" class="todolistImg"></div>
-        <div class="option2"><img src="user.png" alt="profile-pic-img" class="profileImg"></div>
-        <div class="option3"><img src="photo-album.png" alt="gallery-pic-img" class="galleryImg"></div>
-        <div class="option4"><img src="notes.png" alt="posts" class="postsImg"></div>
+        <div class="option1">
+            <img src="checklist.png" alt="todolist-img" class="todolistImg">
+            <h3 class="todolist-label" style="display:none;">ToDo List</h3>
+        </div>
+
+        <div class="option2">
+            <img src="user.png" alt="profile-pic-img" class="profileImg">
+            <h3 class="profilepic-label" style="display:none;">Profile</h3>
+        </div>
+
+        <div class="option3">
+            <img src="photo-album.png" alt="gallery-pic-img" class="galleryImg">
+            <h3 class="gallery-label" style="display:none;">Gallery</h3>
+        </div>
+
+        <div class="option4">
+            <img src="notes.png" alt="posts" class="postsImg">
+            <h3 class="posts-label" style="display:none;">Posts</h3>
+        </div>
 
         </div>
 

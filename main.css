@@ -17,8 +17,9 @@
     align-items: center;
 }
 
-.options div:hover:active{
-
+.options div:hover{
+    cursor: pointer;
+    
 }
 
 .options img{
@@ -27,6 +28,6 @@
     height: 80%;
 }
 
-.options img:hover:active{
-
+.options img:hover{
+    cursor: pointer;
 }

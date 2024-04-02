@@ -18,6 +18,8 @@
                 <input type="password" name="userPassword" id="userPassword" placeholder="********">
                 <input type="submit" name="submitUser" id="submitUser">
             </form>
+
+            <?php include "sign_heandler.php";  ?>
         </div>
     </body>
 </html>
